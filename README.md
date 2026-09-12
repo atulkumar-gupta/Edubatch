@@ -1,4 +1,4 @@
-# 🎓 EduBatch - Education Batch Management Platform
+﻿# 🎓 EduBatch - Education Batch Management Platform
 
 A full-stack MVP for coaching institutes to manage batches, students, enrollments, fees, attendance, and notices.
 
@@ -44,7 +44,7 @@ A full-stack MVP for coaching institutes to manage batches, students, enrollment
 
 | ✅ Attendance | ✅ Attendance (Alt) |
 |------------|------------------|
-| ![Attendance](screenshots/A.Attendance.png) | ![Attendance1](screenshots/A.Attendace1.png) |
+| ![Attendance](screenshots/A.Attendance.png) | ![Attendance1](screenshots/A.Attendance1.png) |
 
 | 📢 Notices | 📢 Notices (Alt) |
 |---------|---------------|
@@ -94,7 +94,7 @@ edubatch/
 ├── server/                       # 🟢 Node.js backend
 ├── docs/                         # 📄 Documentation
 ├── screenshots/                  # 📸 All screenshots
-│   ├── A.Attendace1.png
+│   ├── A.Attendance1.png
 │   ├── A.Attendance.png
 │   ├── A.Batches.png
 │   ├── A.Batches1.png
