@@ -1,117 +1,99 @@
-# EduBatch - Education Batch Management Platform
+# 🎓 EduBatch - Education Batch Management Platform
 
 A full-stack MVP for coaching institutes to manage batches, students, enrollments, fees, attendance, and notices.
 
 ## 🔐 Demo Credentials
+
 | Role | Email | Password |
 |------|-------|----------|
-| Admin | admin@edubatch.com | Admin@123 |
-| Teacher | teacher@edubatch.com | Teach@123 |
-| Student | student@edubatch.com | Stud@123 |
+| 👑 Admin | admin@edubatch.com | Admin@123 |
+| 👨‍🏫 Teacher | teacher@edubatch.com | Teach@123 |
+| 🎓 Student | student@edubatch.com | Stud@123 |
 
 ## 🛠️ Tech Stack
-- **Frontend:** React 18 + Vite + Tailwind CSS
-- **Backend:** Node.js + Express
-- **Database:** MongoDB + Mongoose
-- **Auth:** JWT + bcrypt
-- **Payments:** Razorpay
-- **Email:** Nodemailer
+
+- **Frontend:** ⚛️ React 18 + Vite + Tailwind CSS
+- **Backend:** 🟢 Node.js + Express
+- **Database:** 🍃 MongoDB + Mongoose
+- **Auth:** 🔑 JWT + bcrypt
+- **Payments:** 💳 Razorpay
+- **Email:** 📧 Nodemailer
 
 ## 📦 Features
-- JWT Authentication with 3 roles (Admin/Teacher/Student)
-- Batch Management (CRUD)
-- Student Enrollment (capacity validation)
-- Razorpay Payment Integration
-- Attendance Marking (Present/Absent/Late)
-- Batch-wise Notices
-- Role-based Dashboards
-- Profile Management
 
-## 🚀 Setup
+- 🔐 JWT Authentication with 3 roles (Admin/Teacher/Student)
+- 📚 Batch Management (CRUD)
+- 👥 Student Enrollment (capacity validation)
+- 💳 Razorpay Payment Integration
+- ✅ Attendance Marking (Present/Absent/Late)
+- 📢 Batch-wise Notices
+- 📊 Role-based Dashboards
+- 👤 Profile Management
 
-### Backend
-```bash
-cd server
-npm install
-cp .env.example .env
-# Edit .env with MongoDB URI, JWT secrets, Razorpay keys
-npm run seed
-npm run dev
-
-   # EduBatch
-
-A full-stack web application for managing student batches, attendance, notices, and enrollments.
-
-## Tech Stack
-
-- **Frontend:** React (client/)
-- **Backend:** Node.js + Express (server/)
-- **Docs:** docs/
-
-## Screenshots
+## 📸 Screenshots
 
 ### 👨‍💼 Admin Panel
 
-| Dashboard | Batches |
+| 🏠 Dashboard | 📚 Batches |
 |-----------|---------|
 | ![Dashboard](screenshots/A.Dashboard.png) | ![Batches](screenshots/A.Batches.png) |
 
-| Dashboard (Alt) | Batches (Alt) |
+| 🏠 Dashboard (Alt) | 📚 Batches (Alt) |
 |-----------------|----------------|
 | ![Dashboard1](screenshots/A.Dashboard1.png) | ![Batches1](screenshots/A.Batches1.png) |
 
-| Attendance | Attendance (Alt) |
+| ✅ Attendance | ✅ Attendance (Alt) |
 |------------|------------------|
 | ![Attendance](screenshots/A.Attendance.png) | ![Attendance1](screenshots/A.Attendace1.png) |
 
-| Notices | Notices (Alt) |
+| 📢 Notices | 📢 Notices (Alt) |
 |---------|---------------|
 | ![Notices](screenshots/A.Notices.png) | ![Notices1](screenshots/A.Notices1.png) |
 
-| Profile | Admin |
+| 👤 Profile | 👑 Admin |
 |---------|-------|
 | ![Profile](screenshots/A.Profile.png) | ![Admin](screenshots/Admin.png) |
 
 ### 👨‍🏫 Teacher Panel
 
-| Dashboard | Batches |
+| 🏠 Dashboard | 📚 Batches |
 |-----------|---------|
 | ![Dashboard](screenshots/T.Dashboard.png) | ![Batches](screenshots/T.batches.png) |
 
-| Attendance | Notices |
+| ✅ Attendance | 📢 Notices |
 |-----------|---------|
 | ![Attendance](screenshots/T.Attendance.png) | ![Notices](screenshots/T.Notices.png) |
 
-| Profile | Teacher |
+| 👤 Profile | 👨‍🏫 Teacher |
 |---------|---------|
 | ![Profile](screenshots/T.Profile.png) | ![Teacher](screenshots/Teacher.png) |
 
 ### 🎓 Student Panel
 
-| Dashboard | Batches |
+| 🏠 Dashboard | 📚 Batches |
 |-----------|---------|
 | ![Dashboard](screenshots/S.Dashboard.png) | ![Batches](screenshots/S.Batches.png) |
 
-| My Attendance | My Enrollments |
+| ✅ My Attendance | 📝 My Enrollments |
 |---------------|----------------|
 | ![MyAttendance](screenshots/S.MyAttendance.png) | ![MyEnrollments](screenshots/S.MyEnrollments.png) |
 
-| Notices | Profile |
+| 📢 Notices | 👤 Profile |
 |---------|---------|
 | ![Notices](screenshots/S.Notices.png) | ![Profile](screenshots/S.Profile.png) |
 
-| Student |
+| 🎓 Student |
 |---------|
 | ![Student](screenshots/Student.png) |
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 edubatch/
-├── client/                       # React frontend
-├── server/                       # Node.js backend
-├── docs/                         # Documentation
-├── screenshots/                  # All screenshots
+├── client/                       # ⚛️ React frontend
+├── server/                       # 🟢 Node.js backend
+├── docs/                         # 📄 Documentation
+├── screenshots/                  # 📸 All screenshots
 │   ├── A.Attendace1.png
 │   ├── A.Attendance.png
 │   ├── A.Batches.png
@@ -137,7 +119,30 @@ edubatch/
 │   └── Teacher.png
 ├── .gitignore
 └── README.md
+```
 
-## Author
+## 🚀 Setup
 
-Atul Kumar (6393631994)
+### Backend
+
+```bash
+cd server
+npm install
+cp .env.example .env
+# Edit .env with MongoDB URI, JWT secrets, Razorpay keys
+npm run seed
+npm run dev
+```
+
+### Frontend
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+## 👨‍💻 Author
+
+**Atul Kumar**  
+📞 6393631994
